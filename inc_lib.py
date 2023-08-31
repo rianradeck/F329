@@ -38,7 +38,7 @@ class Num:
         return Num(self.value ** other.value, 
                    sqrt((delfdelx * self.inc) ** 2 +
                         (delfdely * other.inc) ** 2))
-
+    
     def conjugate(self):
         return self
 
@@ -46,7 +46,7 @@ class Num:
         return self ** 0.5
 
     def __str__(self):
-        return f"{self.value} +- {self.inc}"
+        return f"{self.value} ± {self.inc}"
     
     def __repr__(self):
-        return f"{self.value} +- {self.inc}"
+        return f"{self.value} ± {self.inc}"

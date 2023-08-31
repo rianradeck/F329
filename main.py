@@ -29,13 +29,46 @@ def ret_unc(res):
 def tri_unc(res):
     return res / (2 * np.sqrt(6))
 
+def evalLine(x, a, b):
+    return x * a + b
+
 def get_coefs(x, y):
-    n = len(x)
-    xy = x * y
-    x2 = x * x
-    den = x2.sum() * n - x.sum() ** 2
-    a = (xy.sum() * n - x.sum() * y.sum()) / den
-    b = (y.sum() * x2.sum() - x.sum() * xy.sum()) / den
+    if isinstance(y[0], Num):
+        ymaxes = np.vectorize(lambda a: a.value + a.inc)(y) 
+        ymins = np.vectorize(lambda a: a.value - a.inc)(y)
+
+        xNoInc = np.vectorize(lambda x: x.value)(x)
+
+        amax, bmax = get_coefs(xNoInc, ymaxes)
+        amin, bmin = get_coefs(xNoInc, ymins)
+
+        y0Min = evalLine(xNoInc[0], amin, bmin)
+        y0Max = evalLine(xNoInc[0], amax, bmax)
+        y1Min = evalLine(xNoInc[-1], amin, bmin)
+        y1Max = evalLine(xNoInc[-1], amax, bmax)
+    
+        a1, b1 = get_coefs(np.array([xNoInc[0], xNoInc[-1]]), np.array([y0Min, y1Max]))
+        a2, b2 = get_coefs(np.array([xNoInc[0], xNoInc[-1]]), np.array([y0Max, y1Min]))
+        a = Num((a1 + a2) / 2)
+
+        xm = x.mean()
+        ym = y.mean()
+        b = ym - a * xm
+
+        return a, b
+
+        #return Num((amax + amin) / 2, np.abs(amax - amin) / 2), Num((bmax + bmin) / 2, np.abs(bmax - bmin) / 2)
+
+    #n = len(x)
+    #xy = x * y
+    #x2 = x * x
+    #den = x2.sum() * n - x.sum() ** 2
+    #a = (xy.sum() * n - x.sum() * y.sum()) / den
+    #b = (y.sum() * x2.sum() - x.sum() * xy.sum()) / den
+    xm = x.mean()
+    ym = y.mean()
+    a = ((x - xm) * (y - ym)).sum() / ((x - xm) ** 2).sum()
+    b = ym - a * xm
 
     return a, b
 
@@ -91,18 +124,18 @@ if __name__ == '__main__':
     R = (Num(22.51e-2, tri_unc(1e-3)) + Num(19.96e-2, tri_unc(1e-3))) / 2
     L = Num(2.5e-2, tri_unc(1e-3))
     mu0 = 4e-7 * np.pi
-    N = 280
+    N = 300
 
     print(f"Massa do imã: {m}")
     print(f"Raio do imã: {r}")
-    print(f"Comprimento do imã: {m}")
+    print(f"Comprimento do imã: {L}")
     print(f"Raio da bobina: {R}")
 
     # Calculating f^2
     unc_T_i = np.sqrt(ret_unc(0.01) ** 2 + 0.150 ** 2)
     T = np.vectorize(lambda x: Num(x, unc_T_i))(T)
     T /= 5
-    incA = T.std(axis = 1) / np.sqrt(T.shape[1])
+    incA = T.std(axis = 1, ddof=1) / np.sqrt(T.shape[1])
     incA = np.vectorize(lambda x: Num(0, x.value))(incA)
     T = T.mean(axis = 1) + incA
     f2 = T ** -2
@@ -133,7 +166,7 @@ if __name__ == '__main__':
     print(f"mu: {mu}")
 
     # Calculating Bt
-    Bt = b_dec * Kmi / mu
+    Bt = b_dec * 8 * mu0 * N / (a_dec * (5 ** (3 / 2)) * R)
 
     print("Campo -> ", Bt * 1e6)
 
