@@ -3,6 +3,7 @@ from inc_lib import Num
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
+from tabulate import tabulate
 
 I = np.array([-225, -200, -175, -150, -125, -100, -75, -50, 50, 75, 100, 125, 150, 175, 200, 225])
 
@@ -22,6 +23,7 @@ T = np.array([[2.83, 2.88, 2.86, 2.88, 2.83],
               [3.58, 3.49, 3.54, 3.59, 3.54],
               [3.36, 3.33, 3.33, 3.33, 3.38],
               [3.14, 3.13, 3.16, 3.12, 3.11]])
+
 
 def ret_unc(res):
     return res / (2 * np.sqrt(3))
@@ -79,8 +81,12 @@ def plot(I, f2):
     return a_dec, b_dec, a_inc, b_inc
     
 
-def print_table(v):
-    return
+def print_table(v, mag):
+    table = []
+    for x in v:
+        table.append([x.value, x.inc, np.round(abs(x.inc / x.value) * 100, 2)])
+
+    print(tabulate(table, headers=[f"Valor {mag}", f"Incerteza {mag}", "Incerteza relativa (%)"], tablefmt='fancy_grid'))
 
 if __name__ == '__main__':
 
@@ -119,22 +125,20 @@ if __name__ == '__main__':
     I = I + np.vectorize(lambda x: Num(0, x))(incI)
     I /= 1e3
 
-    print("######## I ########\n", I)
-    print("######## f2 ########\n", f2)
+    print_table(I, 'A')
+    print_table(f2, 's^-2')
 
     # Linear regression
     a_dec, b_dec, a_inc, b_inc = plot(I, f2)
-    print(a_dec, b_dec)
 
     # Calculating mu
     Kmi = mi * 4 * np.pi ** 2
-    print(f"Kmi: {Kmi}")
     mu = (Kmi * a_dec * (5 ** (3 / 2)) * R) / (8 * mu0 * N)
-    print(f"mu: {mu}")
 
     # Calculating Bt
     Bt = b_dec * Kmi / mu
 
+    print(f'a: {a_dec}\nb: {b_dec}')
     print("Campo -> ", Bt * 1e6)
 
     plt.show()
