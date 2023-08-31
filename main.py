@@ -1,9 +1,11 @@
 import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+from inc_lib import Num
 from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
+from matplotlib.ticker import FormatStrFormatter
 
 I = np.array([-225, -200, -175, -150, -125, -100, -75, -50, 50, 75, 100, 125, 150, 175, 200, 225])
+
 T = np.array([[2.83, 2.88, 2.86, 2.88, 2.83], 
               [3.12, 3.11, 3.15, 3.09, 3.13],
               [3.26, 3.24, 3.25, 3.22, 3.28],
@@ -21,85 +23,119 @@ T = np.array([[2.83, 2.88, 2.86, 2.88, 2.83],
               [3.36, 3.33, 3.33, 3.33, 3.38],
               [3.14, 3.13, 3.16, 3.12, 3.11]])
 
-# DATA 
-# 5 - AVG
-# 6 - INCA = STD / sqrt(5)
-# 7 - INCB
-# 8 - INCC
+def ret_unc(res):
+    return res / (2 * np.sqrt(3))
 
-T /= 5
-f = 1 / T
-f_2 = f ** 2
+def tri_unc(res):
+    return res / (2 * np.sqrt(6))
 
-d = {}
-for i in range(len(I)):
-    d[I[i]] = f_2[i]
+def get_coefs(x, y):
+    n = len(x)
+    xy = x * y
+    x2 = x * x
+    den = x2.sum() * n - x.sum() ** 2
+    a = (xy.sum() * n - x.sum() * y.sum()) / den
+    b = (y.sum() * x2.sum() - x.sum() * xy.sum()) / den
 
-data = pd.DataFrame(d)
+    return a, b
 
-avg = []
-inca = []
-incb = []
-incc = []
-cnt = 0
-for x in data:
-    avg.append(data[x].mean())
-    inca.append(data[x].std() / np.sqrt(5))
-    incb.append(0.01 / (2 * np.sqrt(3)))
-    incc.append(np.sqrt(inca[cnt] ** 2 + incb[cnt] ** 2))
-    cnt += 1
+def abline(slope, intercept, st, nd):
+    """Plot a line from slope and intercept"""
+    slope = slope.value
+    intercept = intercept.value
+    axes = plt.gca()
+    x_vals = np.linspace(st, nd, 2)
+    y_vals = intercept + slope * x_vals
+    plt.plot(x_vals, y_vals, '--')
 
-data.loc[len(data)] = avg
-data.loc[len(data)] = inca
-data.loc[len(data)] = incb
-data.loc[len(data)] = incc
+def plot(I, f2):
+    a_dec, b_dec = get_coefs(I[:8], f2[:8])
+    a_inc, b_inc = get_coefs(I[8:], f2[8:])
 
-X = data.columns
-Y = data.iloc[5]
+    x_cross = (b_dec - b_inc) / (a_inc - a_dec)
+    
+    ax = plt.gca()
+    ax.axvline(x_cross.value, linestyle=":", marker = '.')
 
-fig, ax = plt.subplots()
+    abline(a_dec, b_dec, -.250, x_cross.value)
+    abline(a_inc, b_inc, x_cross.value, .250)
 
-ax.scatter(X, Y)
-# ax.errorbar(X, Y, yerr=incc, fmt='-o', linestyle = '')
-ax.grid(alpha = 0.3)
+    I_val = np.array([x.value for x in I])
+    I_inc = np.array([x.inc for x in I])
+    f2_val = np.array([x.value for x in f2])
+    f2_inc = np.array([x.inc for x in f2])
+    ax.scatter(I_val, f2_val)
+    ax.errorbar(I_val, f2_val,
+             yerr = f2_inc,
+             xerr = I_inc,
+             fmt ='o')
 
-# plt.show()
+    ax.xaxis.set_major_formatter(FormatStrFormatter('%.2f'))
+    ax.set_xticks([-.250, -.200, -.150, -.100, -.050, 0, x_cross.value, .050, .100, .150, .200, .250])
+    ax.grid(alpha=0.3)
+    plt.xlabel('$I$ ($A$)')
+    plt.ylabel('$f^2$ $({Hz}^2)$')
 
-x_dec = np.array(data.columns[:8]).reshape((-1, 1))
-y_dec = np.array(data.iloc[5][:8])
-x_inc = np.array(data.columns[8:]).reshape((-1, 1))
-y_inc = np.array(data.iloc[5][8:])
+    return a_dec, b_dec, a_inc, b_inc
+    
 
-reg_dec = LinearRegression()
-reg_dec.fit(x_dec, y_dec)
+def print_table(v):
+    return
 
-reg_inc = LinearRegression()
-reg_inc.fit(x_inc, y_inc)
+if __name__ == '__main__':
 
-coef_lin_dec = reg_dec.predict(np.array(0).reshape(-1, 1))
-coef_lin_inc = reg_inc.predict(np.array(0).reshape(-1, 1))
-y_dec_100 = reg_dec.predict(np.array(100).reshape(-1, 1))
-y_inc_100 = reg_dec.predict(np.array(100).reshape(-1, 1))
+    # defining constants
+    m = Num(5.1863e-3, ret_unc(1e-7))
+    d = Num(0.55e-2, tri_unc(1e-3))
+    r = d / 2
+    R = (Num(22.51e-2, tri_unc(1e-3)) + Num(19.96e-2, tri_unc(1e-3))) / 2
+    L = Num(2.5e-2, tri_unc(1e-3))
+    mu0 = 4e-7 * np.pi
+    N = 280
 
-coef_ang_dec = (y_dec_100 - coef_lin_dec) / 100
-coef_ang_inc = (y_inc_100 + coef_lin_inc) / -100
+    print(f"Massa do imã: {m}")
+    print(f"Raio do imã: {r}")
+    print(f"Comprimento do imã: {m}")
+    print(f"Raio da bobina: {R}")
 
-print(coef_lin_dec, coef_lin_inc)
-print(coef_ang_dec, coef_ang_inc)
+    # Calculating f^2
+    unc_T_i = np.sqrt(ret_unc(0.01) ** 2 + 0.150 ** 2)
+    T = np.vectorize(lambda x: Num(x, unc_T_i))(T)
+    T /= 5
+    incA = T.std(axis = 1) / np.sqrt(T.shape[1])
+    incA = np.vectorize(lambda x: Num(0, x.value))(incA)
+    T = T.mean(axis = 1) + incA
+    f2 = T ** -2
 
-x_cross = (coef_lin_dec - coef_lin_inc) / (coef_ang_inc - coef_ang_dec)
-print(x_cross)
+    # Calculating Inertial momentum
+    mi = (r ** 2 / 4 + L ** 2 / 12) * m
 
-test_x_dec = np.linspace(-250, x_cross, 100).reshape((-1, 1))
-test_y_dec = reg_dec.predict(test_x_dec)
+    # Calculating I
+    incIexat = I * 0.008 + 3 * 0.1
+    incIres = 0.1 / (2 * np.sqrt(3))
+    # incFlut = 1
+    incI = np.sqrt(incIexat * incIexat + incIres * incIres)
+    I = np.vectorize(lambda x: Num(x, 0))(I)
+    I = I + np.vectorize(lambda x: Num(0, x))(incI)
+    I /= 1e3
 
-test_x_inc = np.linspace(x_cross, 250, 100).reshape((-1, 1))
-test_y_inc = reg_inc.predict(test_x_inc)
+    print("######## I ########\n", I)
+    print("######## f2 ########\n", f2)
 
-ax.plot(test_x_dec, test_y_dec)
-ax.plot(test_x_inc, test_y_inc)
-ax.axvline(x_cross, linestyle="--", marker = '.')
-# ax.plot(reg_inc)
-ax.set_xticks([-250, -200, -150, -100, -50, 0, float(x_cross), 50, 100, 150, 200, 250])
+    # Linear regression
+    a_dec, b_dec, a_inc, b_inc = plot(I, f2)
+    print(a_dec, b_dec)
 
-plt.show()
+    # Calculating mu
+    Kmi = mi * 4 * np.pi ** 2
+    print(f"Kmi: {Kmi}")
+    mu = (Kmi * a_dec * (5 ** (3 / 2)) * R) / (8 * mu0 * N)
+    print(f"mu: {mu}")
+
+    # Calculating Bt
+    Bt = b_dec * Kmi / mu
+
+    print("Campo -> ", Bt * 1e6)
+
+    plt.show()
+    
