@@ -4,6 +4,11 @@ class Num:
     def __init__(self, val, inc = 0):
         self.value = val
         self.inc = inc
+        
+    def min(self):
+        return self.value - self.inc
+    def max(self):
+        return self.value + self.inc
 
     def __add__(self, other):
         if not isinstance(other, Num):

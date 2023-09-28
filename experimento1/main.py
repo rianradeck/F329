@@ -5,7 +5,10 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
 from tabulate import tabulate
 
-I = np.array([-225, -200, -175, -150, -125, -100, -75, -50, 50, 75, 100, 125, 150, 175, 200, 225])
+I = np.array([-225, -200, -175, -150, -125, -100, -75, -50, 
+            # -40.0, -30.0, -20.0, -10.0, 0.0,
+              # 20, 30, 40, 
+              50, 75, 100, 125, 150, 175, 200, 225])
 
 T = np.array([[2.83, 2.88, 2.86, 2.88, 2.83], 
               [3.12, 3.11, 3.15, 3.09, 3.13],
@@ -15,6 +18,17 @@ T = np.array([[2.83, 2.88, 2.86, 2.88, 2.83],
               [4.19, 4.26, 4.23, 4.14, 4.24],
               [4.68, 4.62, 4.61, 4.69, 4.62],
               [5.69, 5.48, 5.55, 5.65, 5.55],
+              
+              # [6.06, 6.05, 6.04, 6.08, 6.05],
+              # [6.67, 6.71, 6.71, 6.72, 6.69],
+              # [7.59, 7.58, 7.61, 7.6, 7.61],
+              # [8.98, 9.0, 8.98, 8.97, 9.0],
+              # [11.63, 11.6, 11.63, 11.63, 11.6],
+
+              # [19.4, 19.42, 19.43, 19.4, 19.43],
+              # [11.55, 11.53, 11.54, 11.56, 11.5],
+              # [8.94, 9.01, 8.99, 8.96, 8.94],
+
               [7.64, 7.66, 7.73, 7.68, 7.67],
               [5.84, 5.91, 5.83, 5.77, 5.88],
               [4.85, 4.86, 4.87, 4.92, 4.89],
@@ -32,23 +46,30 @@ def tri_unc(res):
     return res / (2 * np.sqrt(6))
 
 def get_coefs(x, y):
-    n = len(x)
-    xy = x * y
-    x2 = x * x
-    den = x2.sum() * n - x.sum() ** 2
-    a = (xy.sum() * n - x.sum() * y.sum()) / den
-    b = (y.sum() * x2.sum() - x.sum() * xy.sum()) / den
+    #n = len(x)
+    #xy = x * y
+    #x2 = x * x
+    #den = x2.sum() * n - x.sum() ** 2
+    #a = (xy.sum() * n - x.sum() * y.sum()) / den
+    #b = (y.sum() * x2.sum() - x.sum() * xy.sum()) / den
+    xm = x.mean()
+    ym = y.mean()
+    a = ((x - xm) * (y - ym)).sum() / ((x - xm) ** 2).sum()
+    b = ym - a * xm
 
     return a, b
 
-def abline(slope, intercept, st, nd):
+def abline(slope, intercept, st, nd, style = '--'):
     """Plot a line from slope and intercept"""
-    slope = slope.value
-    intercept = intercept.value
+    try:
+        slope = slope.value
+        intercept = intercept.value
+    except:
+        pass
     axes = plt.gca()
     x_vals = np.linspace(st, nd, 2)
     y_vals = intercept + slope * x_vals
-    plt.plot(x_vals, y_vals, '--')
+    plt.plot(x_vals, y_vals, style)
 
 def plot(I, f2):
     a_dec, b_dec = get_coefs(I[:8], f2[:8])
@@ -59,8 +80,13 @@ def plot(I, f2):
     ax = plt.gca()
     ax.axvline(x_cross.value, linestyle=":", marker = '.')
 
-    abline(a_dec, b_dec, -.250, x_cross.value)
-    abline(a_inc, b_inc, x_cross.value, .250)
+    abline(a_dec, b_dec, -.250, x_cross.value, style = '-')
+    abline(a_dec.min(), b_dec.min(), -.250, x_cross.value)
+    abline(a_dec.max(), b_dec.max(), -.250, x_cross.value)
+
+    abline(a_inc, b_inc, x_cross.value, .250, style = '-')
+    abline(a_inc.min(), b_inc.max(), x_cross.value, .250)
+    abline(a_inc.max(), b_inc.min(), x_cross.value, .250)
 
     I_val = np.array([x.value for x in I])
     I_inc = np.array([x.inc for x in I])
@@ -72,8 +98,8 @@ def plot(I, f2):
              xerr = I_inc,
              fmt ='o')
 
-    ax.xaxis.set_major_formatter(FormatStrFormatter('%.2f'))
-    ax.set_xticks([-.250, -.200, -.150, -.100, -.050, 0, x_cross.value, .050, .100, .150, .200, .250])
+    ax.xaxis.set_major_formatter(FormatStrFormatter('%.4f'))
+    ax.set_xticks([-.250, -.200, -.150, -.100, -.050, x_cross.value, .050, .100, .150, .200, .250])
     ax.grid(alpha=0.3)
     plt.xlabel('$I$ ($A$)')
     plt.ylabel('$f^2$ $({Hz}^2)$')
@@ -86,7 +112,7 @@ def print_table(v, mag):
     for x in v:
         table.append([x.value, x.inc, np.round(abs(x.inc / x.value) * 100, 2)])
 
-    print(tabulate(table, headers=[f"Valor {mag}", f"Incerteza {mag}", "Incerteza relativa (%)"], tablefmt='fancy_grid'))
+    print(tabulate(table, headers=[f"Valor {mag}", f"Incerteza {mag}", "Incerteza relativa (%)"], tablefmt='latex_raw'))
 
 if __name__ == '__main__':
 
@@ -110,7 +136,8 @@ if __name__ == '__main__':
     T /= 5
     incA = T.std(axis = 1) / np.sqrt(T.shape[1])
     incA = np.vectorize(lambda x: Num(0, x.value))(incA)
-    T = T.mean(axis = 1) + incA
+    T = T.mean(axis = 1)
+    print_table(T, "s")
     f2 = T ** -2
 
     # Calculating Inertial momentum
