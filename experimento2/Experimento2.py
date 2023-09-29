@@ -76,6 +76,7 @@ def get_aux_points():
 print(points)
 
 def get_point(x1, y1, x2, y2, P):
+	P = 1
 	if x1 > x2:
 		x1, x2 = x2, x1
 		y1, y2 = y2, y1
@@ -120,7 +121,7 @@ def plot(X, Y, idx, P):
 
 	for i in range(len(X) - 1):
 		x0, y0, dx, dy = get_point(X[i], Y[i], X[i + 1], Y[i + 1], P)
-		axis[idx].arrow(x0, y0, dx, dy, width=0.15)
+		axis[idx].arrow(x0, y0, dx, dy, width=0.1)
 
 	X, Y = smooth(X, Y)
 	axis[idx].plot(X, Y, label=str(P) + ' V')
@@ -153,7 +154,7 @@ def f(idx, exp):
 	curX, curY = plot(curX, curY, idx, points[exp][-1][2])
 
 	axis[idx].scatter(X, Y, s = 10)
-	axis[idx].errorbar(X, Y, xerr = 0.5, yerr = 0.5, fmt='.', c = 'brown')
+	axis[idx].errorbar(X, Y, xerr = 0.25, yerr = 0.25, fmt='.', c = 'brown')
 
 	X = np.array(X).reshape(NUMBER_OF_LINES[exp], 2 * POINTS_PER_LINE)
 	Y = np.array(Y).reshape(NUMBER_OF_LINES[exp], 2 * POINTS_PER_LINE)
@@ -173,7 +174,10 @@ def build_grid(ax):
 		ax.axhline(i, aa=1, ls='-', lw=.8, alpha=.25, c='gray')
 
 
-figure, axis = plt.subplots(1, 3)
+figure, axis1 = plt.subplots()
+figure, axis2 = plt.subplots()
+figure, axis3 = plt.subplots()
+axis = [axis1, axis2, axis3]
 figure, axis3d = plt.subplots(1, 3, subplot_kw=dict(projection='3d'))
 f(0, "clean")
 f(1, "point")
@@ -187,7 +191,7 @@ for i in range(3):
 	axis[i].set_yticks(list(range(0, 20, 2)))
 	axis[i].set_xlabel("X")
 	axis[i].set_ylabel("Y")
-	axis[i].legend(bbox_to_anchor=(0.5,-0.27), loc='upper right')
+	axis[i].legend(bbox_to_anchor=(0.9, 1.0), loc='upper left')
 	# axis[i].legend()
 
 	axis3d[i].set_xlabel("X")
