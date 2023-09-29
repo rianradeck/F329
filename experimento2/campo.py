@@ -42,10 +42,13 @@ f("circle", 2)
 axis.set_xticks(np.arange(0, 20, 1))
 axis.set_yticks(np.arange(0, 4.5, 0.5))
 axis.grid(alpha=.3)
-axis.legend(prop={'size':20})
-axis.set_xlabel("Y (cm)")
-axis.set_ylabel("Pot (V)")
-axis.set_title("Potencial ao longo do eixo de simetria")
 
+axis.set_xlabel("Y (cm)", fontsize=20)
+axis.set_ylabel("Pot (V)", fontsize=20)
+axis.set_title("Potencial ao longo do eixo de simetria", fontsize=25)
+
+axis.legend(prop={'size':20})
+axis.set_xticklabels(axis.get_xticks(), fontsize=15)
+axis.set_yticklabels(axis.get_yticks(), fontsize=15)
 
 plt.show()

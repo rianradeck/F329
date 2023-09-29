@@ -165,7 +165,7 @@ def f(idx, exp):
 	                       linewidth=0, antialiased=True, shade=False)
 	# axis3d[idx].plot_wireframe(X, Z, Y, rstride=10, cstride=10)
 	pt = {"clean" : "Limpo", "point" : "Ponta", "circle" : "Aro"}
-	axis[idx].set_title(pt[exp])
+	axis[idx].set_title(pt[exp], fontsize=25)
 
 def build_grid(ax):
 	for i in range(1, 28):
@@ -189,9 +189,11 @@ for i in range(3):
 	build_grid(axis[i])
 	axis[i].set_xticks(range(0, 29, 2))
 	axis[i].set_yticks(list(range(0, 20, 2)))
-	axis[i].set_xlabel("X")
-	axis[i].set_ylabel("Y")
-	axis[i].legend(bbox_to_anchor=(0.9, 1.0), loc='upper left')
+	axis[i].set_xlabel("X (cm)", fontsize=20)
+	axis[i].set_ylabel("Y (cm)", fontsize=20)
+	axis[i].set_xticklabels(axis[i].get_xticks(), fontsize=15)
+	axis[i].set_yticklabels(axis[i].get_yticks(), fontsize=15)
+	axis[i].legend(loc='upper right', prop={'size':20})
 	# axis[i].legend()
 
 	axis3d[i].set_xlabel("X")
