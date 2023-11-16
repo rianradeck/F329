@@ -1,0 +1,51 @@
+Rp = 206.9
+
+RESISTOR DUT = 99.2
+
+Circuito do tipo B -> (resistencia do DUT muito menor que a do voltimetro, sendo assim a corrente deve passar toda pelo resistor)
+
+V, I (V, ma)
+0.498, -4.99
+1.005, -9.92
+1.502, -15.13
+1.966, -19.73
+2.508, -25,30
+3.004, -31.05
+3.505, -35.21
+4.013, -40.29
+4.507, -45.19
+5.073, -50.80
+5.512, -55.31
+6.000, -60.2
+
+DIODO : 0.820 M OHMs e 0 OHMS
+
+Circuito do tipo B -> DUT = diodo a favor
+
+V, I (V, mA)
+0.504, -0.22
+0.521, -0.31 
+0.550, -0.59
+0.573, -0.90
+0.600, -1.65
+0.624, -2.67
+0.650, -4.75
+0.673, -7.92 
+0.701, -15.14
+0.724, -25.96
+0.749, -48.08
+
+Circuito do tipo B -> DUT = diodo contrario (SEMPRE 0 corrente pois a resistencia é infinita então toda corrente passa pelo voltimetro (escala de M OHMS))
+
+Circuito A -> DUT = diodo contrario (sempre 0 corrente)
+
+1, 0
+2, 0
+3, 0
+4, 0
+5, 0
+6, 0
+7, 0
+8, 0
+9, 0
+10, 0
