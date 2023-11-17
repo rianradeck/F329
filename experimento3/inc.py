@@ -6,7 +6,8 @@ from scipy.odr import *
 
 V_r = np.array([0.498, 1.005, 1.502, 1.966, 2.508, 3.004, 3.505, 4.013, 4.507, 5.073, 5.512, 6.000])
 I_r = np.array([-4.99, -9.92, -15.13, -19.73, -25.30, -31.05, -35.21, -40.29, -45.19, -50.80, -55.31, -60.2]) * 1e-3
-
+# V_r = np.array([0.504, 0.521, 0.550, 0.573, 0.600, 0.624, 0.650, 0.673, 0.701, 0.724, 0.749])
+# I_r = np.array([-0.22, -0.31, -0.59, -0.90, -1.65, -2.67, -4.75, -7.92, -15.14, -25.96, -48.08])
 
 
 def getTensRes(tens):
@@ -61,6 +62,9 @@ def printWithUnc(x, uX):
 
 uV_r = np.array([getTensUnc(x) for x in V_r])
 uI_r = np.array([getCurUnc(x) for x in I_r])
+
+print((list(uV_r)))
+print(list(uI_r))
 
 print("Resistor tension: (V):")
 printWithUnc(V_r, uV_r)
