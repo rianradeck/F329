@@ -1,0 +1,33 @@
+0.985 KOHM (CINZA)
+
+0.469 KOHM (VERDE)
+
+99.4 OHM (ROSA)
+
+capacitor VERMELHO TIJOLO 4.797 uF
+
+circuito 1 (Vpp 2V 100hz fase 0)
+cursores:
+canal 1 = 960mv, -1v => 1.96V
+canal 2 = 900mv, -880mv => 1.78V
+
+circuito 2 (Vpp 4V 100hz fase 0)
+4V e 1.42V
+
+cursores
+canal 1 = 1.02V, -1.02V => 2.04V
+canal 2 = 464mv, 0V => 464mv
+
+circuito 3 (Vpp 1V fase 0)
+21.1638 hz
+
+2.11638 Khz
+
+211.638 Khz
+
+
+os 4 ultimos arquivos salvos no pendrive foram:
+20 Hz quadratico
+211.638 Hz senoidal
+21.1638 Hz senoidal
+2116.38 Hz senoidal

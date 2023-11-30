@@ -1,0 +1,1925 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.25)  29 NOV 2023 22:50
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**E:/Unicamp/F329/experimento4/code.py
+(E:/Unicamp/F329/experimento4/code.py
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+
+E:/Unicamp/F329/experimento4/code.py:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 i
+     mport numpy as np
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:3: Missing $ inserted.
+<inserted text> 
+                $
+l.3 from plotly.subplots import make_
+                                     subplots
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+E:/Unicamp/F329/experimento4/code.py:8: Missing $ inserted.
+<inserted text> 
+                $
+l.8 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--8
+[]
+ []
+
+
+Overfull \hbox (425.35832pt too wide) in paragraph at lines 1--8
+[]\OML/cmm/m/it/10 ubplotsimportplotly:graph[]bjectsasgoimportpandasaspdimportm
+atplotlib:pyplotaspltimportsys$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:9: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 d
+     ef get_info(path, filter_size=5, name="", line=None, wave="sine"):
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:9: Missing $ inserted.
+<inserted text> 
+                $
+l.9 def get_
+            info(path, filter_size=5, name="", line=None, wave="sine"):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:11: Missing $ inserted.
+<inserted text> 
+                $
+l.11 	
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--11
+[]
+ []
+
+
+Overfull \hbox (101.57272pt too wide) in paragraph at lines 9--11
+[]\OML/cmm/m/it/10 nfo\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 path; filter[]ize \OT1/
+cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (44.72458pt too wide) in paragraph at lines 9--11
+\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; name \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (42.28427pt too wide) in paragraph at lines 9--11
+\OT1/cmr/m/n/10 ""\OML/cmm/m/it/10 ; line \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (62.20715pt too wide) in paragraph at lines 9--11
+\OML/cmm/m/it/10 None; wave \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (38.23567pt too wide) in paragraph at lines 9--11
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 sine\OT1/cmr/m/n/10 ") :
+ []
+
+
+Overfull \hbox (20.06596pt too wide) in paragraph at lines 9--11
+\OML/cmm/m/it/10 df \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (115.85043pt too wide) in paragraph at lines 9--11
+\OML/cmm/m/it/10 pd:read[]sv\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 path; header \OT1
+/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (69.04288pt too wide) in paragraph at lines 9--11
+\OML/cmm/m/it/10 None; names \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (102.22235pt too wide) in paragraph at lines 9--11
+\OT1/cmr/m/n/10 ["1"\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "2"\OML/cmm/m/it/10 ; \O
+T1/cmr/m/n/10 "3"\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "4"\OML/cmm/m/it/10 ; \OT1/
+cmr/m/n/10 "5"])$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:12: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 	X
+        = np.array(df["3"])
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no X in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:14: Missing $ inserted.
+<inserted text> 
+                $
+l.14 	filtered_
+               Y = np.convolve(Y, np.ones(filter_size) / filter_size)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:15: Missing $ inserted.
+<inserted text> 
+                $
+l.15 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 12--15
+[]
+ []
+
+
+Overfull \hbox (17.47847pt too wide) in paragraph at lines 12--15
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (203.13637pt too wide) in paragraph at lines 12--15
+\OML/cmm/m/it/10 np:convolve\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Y; np:ones\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 filter[]ize\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =filter
+[]ize\OT1/cmr/m/n/10 )$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:16: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 	p
+       lot = go.Scatter(
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:18: Missing $ inserted.
+<inserted text> 
+                $
+l.18 		y = filtered_
+                    Y,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:22: Missing $ inserted.
+<inserted text> 
+                $
+l.22 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--22
+[]
+ []
+
+
+Overfull \hbox (46.64752pt too wide) in paragraph at lines 16--22
+[]\OML/cmm/m/it/10 ; name \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (57.00888pt too wide) in paragraph at lines 16--22
+\OML/cmm/m/it/10 name; line \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (21.17322pt too wide) in paragraph at lines 16--22
+\OML/cmm/m/it/10 line\OT1/cmr/m/n/10 )$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:23: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 	u
+       ps = []
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--30
+[]
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:31: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 	i
+       f len(ups) > 1:
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 31--38
+[]
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:39: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 	p
+       rint("#" * 10 + f" {name} " + "#" * 10)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no " in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:39: You can't use `macro parameter charact
+er #' in horizontal mode.
+l.39 	print("#
+              " * 10 + f" {name} " + "#" * 10)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no " in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no " in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:39: You can't use `macro parameter charact
+er #' in horizontal mode.
+l.39 	print("#" * 10 + f" {name} " + "#
+                                       " * 10)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no " in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+LaTeX Font Info:    Trying to load font information for +cmr on input line 41.
+LaTeX Font Info:    No file cmr.fd. on input line 41.
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 41.
+
+E:/Unicamp/F329/experimento4/code.py:41: Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.41 	print("Frequê
+                    ncia", freq)
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 41.
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--43
+[]
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 39--43
+\/cmr/m/n/10 ^e
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:44: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 	r
+       eturn X, Y, plot
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--45
+[]
+ []
+
+E:/Unicamp/F329/experimento4/code.py:46: Missing $ inserted.
+<inserted text> 
+                $
+l.46 _
+      , _, c1_line_ch1 = get_info("./ALL0000/F0000CH1.CSV", name="A")
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+E:/Unicamp/F329/experimento4/code.py:46: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 _
+      , _, c1_line_ch1 = get_info("./ALL0000/F0000CH1.CSV", name="A")
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+E:/Unicamp/F329/experimento4/code.py:46: Double subscript.
+l.46 _, _
+         , c1_line_ch1 = get_info("./ALL0000/F0000CH1.CSV", name="A")
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:47: Double subscript.
+l.47 _, _
+         , c1_line_ch2 = get_info("./ALL0000/F0000CH2.CSV", name="B")
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:48: Missing $ inserted.
+<inserted text> 
+                $
+l.48 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (77.64163pt too wide) in paragraph at lines 46--48
+[]$[][]\OML/cmm/m/it/10 c\/cmr/m/n/10 1[]\OML/cmm/m/it/10 ine[]h\/cmr/m/n/10 1 
+=
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 46--48
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0000
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0000\OML/cmm/m/it/10 CH\/cmr/m/n/10 1\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (79.03058pt too wide) in paragraph at lines 46--48
+\/cmr/m/n/10 "\OML/cmm/m/it/10 A\/cmr/m/n/10 ")[][]\OML/cmm/m/it/10 c\/cmr/m/n/
+10 1[]\OML/cmm/m/it/10 ine[]h\/cmr/m/n/10 2 =
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 46--48
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0000
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0000\OML/cmm/m/it/10 CH\/cmr/m/n/10 2\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (21.97574pt too wide) in paragraph at lines 46--48
+\/cmr/m/n/10 "\OML/cmm/m/it/10 B\/cmr/m/n/10 ")$ 
+ []
+
+E:/Unicamp/F329/experimento4/code.py:49: Missing $ inserted.
+<inserted text> 
+                $
+l.49 _
+      , _, c2_line_ch1 = get_info("./ALL0002/F0002CH1.CSV", name="C")
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+E:/Unicamp/F329/experimento4/code.py:49: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 _
+      , _, c2_line_ch1 = get_info("./ALL0002/F0002CH1.CSV", name="C")
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+E:/Unicamp/F329/experimento4/code.py:49: Double subscript.
+l.49 _, _
+         , c2_line_ch1 = get_info("./ALL0002/F0002CH1.CSV", name="C")
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:50: Double subscript.
+l.50 _, _
+         , c2_line_ch2 = get_info("./ALL0002/F0002CH2.CSV", name="D", filter...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:51: Missing $ inserted.
+<inserted text> 
+                $
+l.51 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (77.64163pt too wide) in paragraph at lines 49--51
+[]$[][]\OML/cmm/m/it/10 c\/cmr/m/n/10 2[]\OML/cmm/m/it/10 ine[]h\/cmr/m/n/10 1 
+=
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 49--51
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0002
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0002\OML/cmm/m/it/10 CH\/cmr/m/n/10 1\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (79.39305pt too wide) in paragraph at lines 49--51
+\/cmr/m/n/10 "\OML/cmm/m/it/10 C\/cmr/m/n/10 ")[][]\OML/cmm/m/it/10 c\/cmr/m/n/
+10 2[]\OML/cmm/m/it/10 ine[]h\/cmr/m/n/10 2 =
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 49--51
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0002
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0002\OML/cmm/m/it/10 CH\/cmr/m/n/10 2\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (76.39984pt too wide) in paragraph at lines 49--51
+\/cmr/m/n/10 "\OML/cmm/m/it/10 D\/cmr/m/n/10 "\OML/cmm/m/it/10 ; filter[]ize \/
+cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 49--51
+\/cmr/m/n/10 1)$ 
+ []
+
+E:/Unicamp/F329/experimento4/code.py:52: Missing $ inserted.
+<inserted text> 
+                $
+l.52 _
+      , _, c3_line_ch1 = get_info("./ALL0006/F0006CH1.CSV", name="E 20Hz Ond...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+E:/Unicamp/F329/experimento4/code.py:52: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 _
+      , _, c3_line_ch1 = get_info("./ALL0006/F0006CH1.CSV", name="E 20Hz Ond...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+E:/Unicamp/F329/experimento4/code.py:52: Double subscript.
+l.52 _, _
+         , c3_line_ch1 = get_info("./ALL0006/F0006CH1.CSV", name="E 20Hz Ond...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:53: Double subscript.
+l.53 _, _
+         , c3_line_ch2 = get_info("./ALL0006/F0006CH2.CSV", name="F 20Hz Ond...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:54: Missing $ inserted.
+<inserted text> 
+                $
+l.54 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (77.64163pt too wide) in paragraph at lines 52--54
+[]$[][]\OML/cmm/m/it/10 c\/cmr/m/n/10 3[]\OML/cmm/m/it/10 ine[]h\/cmr/m/n/10 1 
+=
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 52--54
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0006
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0006\OML/cmm/m/it/10 CH\/cmr/m/n/10 1\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (145.75288pt too wide) in paragraph at lines 52--54
+\/cmr/m/n/10 "\OML/cmm/m/it/10 E\/cmr/m/n/10 20\OML/cmm/m/it/10 HzOndaquadrada\
+/cmr/m/n/10 "\OML/cmm/m/it/10 ; wave \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (101.49707pt too wide) in paragraph at lines 52--54
+\/cmr/m/n/10 "\OML/cmm/m/it/10 square\/cmr/m/n/10 ")[][]\OML/cmm/m/it/10 c\/cmr
+/m/n/10 3[]\OML/cmm/m/it/10 ine[]h\/cmr/m/n/10 2 =
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 52--54
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0006
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0006\OML/cmm/m/it/10 CH\/cmr/m/n/10 2\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (145.61403pt too wide) in paragraph at lines 52--54
+\/cmr/m/n/10 "\OML/cmm/m/it/10 F\/cmr/m/n/10 20\OML/cmm/m/it/10 HzOndaquadrada\
+/cmr/m/n/10 "\OML/cmm/m/it/10 ; wave \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (43.85544pt too wide) in paragraph at lines 52--54
+\/cmr/m/n/10 "\OML/cmm/m/it/10 square\/cmr/m/n/10 ")$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:55: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 f
+      ig = make_subplots(rows=3, cols=1)#, specs=[[{}, {}],
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:55: Missing $ inserted.
+<inserted text> 
+                $
+l.55 fig = make_
+                subplots(rows=3, cols=1)#, specs=[[{}, {}],
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:55: You can't use `macro parameter charact
+er #' in math mode.
+l.55 fig = make_subplots(rows=3, cols=1)#
+                                         , specs=[[{}, {}],
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+E:/Unicamp/F329/experimento4/code.py:56: You can't use `macro parameter charact
+er #' in math mode.
+l.56            				   			#
+                           	   [{"colspan": 2}, None]])
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+E:/Unicamp/F329/experimento4/code.py:57: Missing $ inserted.
+<inserted text> 
+                $
+l.57 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 55--57
+[]
+ []
+
+
+Overfull \hbox (71.84499pt too wide) in paragraph at lines 55--57
+[]\OML/cmm/m/it/10 ubplots\/cmr/m/n/10 (\OML/cmm/m/it/10 rows \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (37.0428pt too wide) in paragraph at lines 55--57
+\/cmr/m/n/10 3\OML/cmm/m/it/10 ; cols \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (47.27892pt too wide) in paragraph at lines 55--57
+\/cmr/m/n/10 1)\OML/cmm/m/it/10 ; specs \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (115.21527pt too wide) in paragraph at lines 55--57
+\/cmr/m/n/10 [[[]\OML/cmm/m/it/10 ; []\/cmr/m/n/10 ]\OML/cmm/m/it/10 ; \/cmr/m/
+n/10 [[]\OML/cmm/m/it/10 ; None\/cmr/m/n/10 ]])$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:58: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 f
+      ig.add_trace(c1_line_ch1, row=1, col=1)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:58: Missing $ inserted.
+<inserted text> 
+                $
+l.58 fig.add_
+             trace(c1_line_ch1, row=1, col=1)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:60: Missing $ inserted.
+<inserted text> 
+                $
+l.60 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (119.86972pt too wide) in paragraph at lines 58--60
+[]$[]\OML/cmm/m/it/10 race\/cmr/m/n/10 (\OML/cmm/m/it/10 c\/cmr/m/n/10 1[]\OML/
+cmm/m/it/10 ine[]h\/cmr/m/n/10 1\OML/cmm/m/it/10 ; row \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 58--60
+\/cmr/m/n/10 1\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (141.7779pt too wide) in paragraph at lines 58--60
+\/cmr/m/n/10 1)\OML/cmm/m/it/10 fig:add[]race\/cmr/m/n/10 (\OML/cmm/m/it/10 c\/
+cmr/m/n/10 1[]\OML/cmm/m/it/10 ine[]h\/cmr/m/n/10 2\OML/cmm/m/it/10 ; row \/cmr
+/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 58--60
+\/cmr/m/n/10 1\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 58--60
+\/cmr/m/n/10 1)$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:61: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 f
+      ig.add_trace(c2_line_ch1, row=2, col=1)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:61: Missing $ inserted.
+<inserted text> 
+                $
+l.61 fig.add_
+             trace(c2_line_ch1, row=2, col=1)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:63: Missing $ inserted.
+<inserted text> 
+                $
+l.63 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (119.86972pt too wide) in paragraph at lines 61--63
+[]$[]\OML/cmm/m/it/10 race\/cmr/m/n/10 (\OML/cmm/m/it/10 c\/cmr/m/n/10 2[]\OML/
+cmm/m/it/10 ine[]h\/cmr/m/n/10 1\OML/cmm/m/it/10 ; row \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 61--63
+\/cmr/m/n/10 2\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (141.7779pt too wide) in paragraph at lines 61--63
+\/cmr/m/n/10 1)\OML/cmm/m/it/10 fig:add[]race\/cmr/m/n/10 (\OML/cmm/m/it/10 c\/
+cmr/m/n/10 2[]\OML/cmm/m/it/10 ine[]h\/cmr/m/n/10 2\OML/cmm/m/it/10 ; row \/cmr
+/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 61--63
+\/cmr/m/n/10 2\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 61--63
+\/cmr/m/n/10 1)$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:64: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 f
+      ig.add_trace(c3_line_ch1, row=3, col=1)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:64: Missing $ inserted.
+<inserted text> 
+                $
+l.64 fig.add_
+             trace(c3_line_ch1, row=3, col=1)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:66: Missing $ inserted.
+<inserted text> 
+                $
+l.66 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (119.86972pt too wide) in paragraph at lines 64--66
+[]$[]\OML/cmm/m/it/10 race\/cmr/m/n/10 (\OML/cmm/m/it/10 c\/cmr/m/n/10 3[]\OML/
+cmm/m/it/10 ine[]h\/cmr/m/n/10 1\OML/cmm/m/it/10 ; row \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 64--66
+\/cmr/m/n/10 3\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (141.7779pt too wide) in paragraph at lines 64--66
+\/cmr/m/n/10 1)\OML/cmm/m/it/10 fig:add[]race\/cmr/m/n/10 (\OML/cmm/m/it/10 c\/
+cmr/m/n/10 3[]\OML/cmm/m/it/10 ine[]h\/cmr/m/n/10 2\OML/cmm/m/it/10 ; row \/cmr
+/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 64--66
+\/cmr/m/n/10 3\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 64--66
+\/cmr/m/n/10 1)$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:67: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 f
+      ig_c3 = make_subplots(rows=3, cols=1)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:67: Missing $ inserted.
+<inserted text> 
+                $
+l.67 fig_
+         c3 = make_subplots(rows=3, cols=1)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:68: Missing $ inserted.
+<inserted text> 
+                $
+l.68 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (39.62927pt too wide) in paragraph at lines 67--68
+[]$[]\/cmr/m/n/10 3 =
+ []
+
+
+Overfull \hbox (96.08812pt too wide) in paragraph at lines 67--68
+\OML/cmm/m/it/10 make[]ubplots\/cmr/m/n/10 (\OML/cmm/m/it/10 rows \/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (37.0428pt too wide) in paragraph at lines 67--68
+\/cmr/m/n/10 3\OML/cmm/m/it/10 ; cols \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 67--68
+\/cmr/m/n/10 1)$ 
+ []
+
+E:/Unicamp/F329/experimento4/code.py:70: Missing $ inserted.
+<inserted text> 
+                $
+l.70 _
+      , _, c3A_line_ch1 = get_info("./ALL0008/F0008CH1.CSV", name="E 21.1638...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+E:/Unicamp/F329/experimento4/code.py:70: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 _
+      , _, c3A_line_ch1 = get_info("./ALL0008/F0008CH1.CSV", name="E 21.1638...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+E:/Unicamp/F329/experimento4/code.py:70: Double subscript.
+l.70 _, _
+         , c3A_line_ch1 = get_info("./ALL0008/F0008CH1.CSV", name="E 21.1638...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:71: Double subscript.
+l.71 _, _
+         , c3A_line_ch2 = get_info("./ALL0008/F0008CH2.CSV", name="F 21.1638...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:72: Missing $ inserted.
+<inserted text> 
+                $
+l.72 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (85.14165pt too wide) in paragraph at lines 70--72
+[]$[][]\OML/cmm/m/it/10 c\/cmr/m/n/10 3\OML/cmm/m/it/10 A[]ine[]h\/cmr/m/n/10 1
+ =
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 70--72
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0008
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0008\OML/cmm/m/it/10 CH\/cmr/m/n/10 1\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (130.61865pt too wide) in paragraph at lines 70--72
+\/cmr/m/n/10 "\OML/cmm/m/it/10 E\/cmr/m/n/10 21\OML/cmm/m/it/10 :\/cmr/m/n/10 1
+638\OML/cmm/m/it/10 hz\/cmr/m/n/10 ")[][]\OML/cmm/m/it/10 c\/cmr/m/n/10 3\OML/c
+mm/m/it/10 A[]ine[]h\/cmr/m/n/10 2 =
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 70--72
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0008
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0008\OML/cmm/m/it/10 CH\/cmr/m/n/10 2\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (65.33815pt too wide) in paragraph at lines 70--72
+\/cmr/m/n/10 "\OML/cmm/m/it/10 F\/cmr/m/n/10 21\OML/cmm/m/it/10 :\/cmr/m/n/10 1
+638\OML/cmm/m/it/10 hz\/cmr/m/n/10 ")$ 
+ []
+
+E:/Unicamp/F329/experimento4/code.py:73: Missing $ inserted.
+<inserted text> 
+                $
+l.73 _
+      , _, c3B_line_ch1 = get_info("./ALL0007/F0007CH1.CSV", name="E 211.638...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+E:/Unicamp/F329/experimento4/code.py:73: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 _
+      , _, c3B_line_ch1 = get_info("./ALL0007/F0007CH1.CSV", name="E 211.638...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+E:/Unicamp/F329/experimento4/code.py:73: Double subscript.
+l.73 _, _
+         , c3B_line_ch1 = get_info("./ALL0007/F0007CH1.CSV", name="E 211.638...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:74: Double subscript.
+l.74 _, _
+         , c3B_line_ch2 = get_info("./ALL0007/F0007CH2.CSV", name="F 211.638...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:75: Missing $ inserted.
+<inserted text> 
+                $
+l.75 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (85.22672pt too wide) in paragraph at lines 73--75
+[]$[][]\OML/cmm/m/it/10 c\/cmr/m/n/10 3\OML/cmm/m/it/10 B[]ine[]h\/cmr/m/n/10 1
+ =
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 73--75
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0007
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0007\OML/cmm/m/it/10 CH\/cmr/m/n/10 1\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (130.70372pt too wide) in paragraph at lines 73--75
+\/cmr/m/n/10 "\OML/cmm/m/it/10 E\/cmr/m/n/10 211\OML/cmm/m/it/10 :\/cmr/m/n/10 
+638\OML/cmm/m/it/10 hz\/cmr/m/n/10 ")[][]\OML/cmm/m/it/10 c\/cmr/m/n/10 3\OML/c
+mm/m/it/10 B[]ine[]h\/cmr/m/n/10 2 =
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 73--75
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0007
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0007\OML/cmm/m/it/10 CH\/cmr/m/n/10 2\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (65.33815pt too wide) in paragraph at lines 73--75
+\/cmr/m/n/10 "\OML/cmm/m/it/10 F\/cmr/m/n/10 211\OML/cmm/m/it/10 :\/cmr/m/n/10 
+638\OML/cmm/m/it/10 hz\/cmr/m/n/10 ")$ 
+ []
+
+E:/Unicamp/F329/experimento4/code.py:76: Missing $ inserted.
+<inserted text> 
+                $
+l.76 _
+      , _, c3C_line_ch1 = get_info("./ALL0009/F0009CH1.CSV", name="E 2116.38...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+E:/Unicamp/F329/experimento4/code.py:76: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 _
+      , _, c3C_line_ch1 = get_info("./ALL0009/F0009CH1.CSV", name="E 2116.38...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+E:/Unicamp/F329/experimento4/code.py:76: Double subscript.
+l.76 _, _
+         , c3C_line_ch1 = get_info("./ALL0009/F0009CH1.CSV", name="E 2116.38...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:77: Double subscript.
+l.77 _, _
+         , c3C_line_ch2 = get_info("./ALL0009/F0009CH2.CSV", name="F 2116.38...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+E:/Unicamp/F329/experimento4/code.py:78: Missing $ inserted.
+<inserted text> 
+                $
+l.78 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (84.78885pt too wide) in paragraph at lines 76--78
+[]$[][]\OML/cmm/m/it/10 c\/cmr/m/n/10 3\OML/cmm/m/it/10 C[]ine[]h\/cmr/m/n/10 1
+ =
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 76--78
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0009
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0009\OML/cmm/m/it/10 CH\/cmr/m/n/10 1\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (130.26585pt too wide) in paragraph at lines 76--78
+\/cmr/m/n/10 "\OML/cmm/m/it/10 E\/cmr/m/n/10 2116\OML/cmm/m/it/10 :\/cmr/m/n/10
+ 38\OML/cmm/m/it/10 hz\/cmr/m/n/10 ")[][]\OML/cmm/m/it/10 c\/cmr/m/n/10 3\OML/c
+mm/m/it/10 C[]ine[]h\/cmr/m/n/10 2 =
+ []
+
+
+Overfull \hbox (215.70508pt too wide) in paragraph at lines 76--78
+\OML/cmm/m/it/10 get[]nfo\/cmr/m/n/10 ("\OML/cmm/m/it/10 :=ALL\/cmr/m/n/10 0009
+\OML/cmm/m/it/10 =F\/cmr/m/n/10 0009\OML/cmm/m/it/10 CH\/cmr/m/n/10 2\OML/cmm/m
+/it/10 :CSV\/cmr/m/n/10 "\OML/cmm/m/it/10 ; name \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (65.33815pt too wide) in paragraph at lines 76--78
+\/cmr/m/n/10 "\OML/cmm/m/it/10 F\/cmr/m/n/10 2116\OML/cmm/m/it/10 :\/cmr/m/n/10
+ 38\OML/cmm/m/it/10 hz\/cmr/m/n/10 ")$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:79: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 f
+      ig_c3.add_trace(c3A_line_ch1, row=1, col=1)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:79: Missing $ inserted.
+<inserted text> 
+                $
+l.79 fig_
+         c3.add_trace(c3A_line_ch1, row=1, col=1)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:81: Missing $ inserted.
+<inserted text> 
+                $
+l.81 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (154.9169pt too wide) in paragraph at lines 79--81
+[]$[]\/cmr/m/n/10 3\OML/cmm/m/it/10 :add[]race\/cmr/m/n/10 (\OML/cmm/m/it/10 c\
+/cmr/m/n/10 3\OML/cmm/m/it/10 A[]ine[]h\/cmr/m/n/10 1\OML/cmm/m/it/10 ; row \/c
+mr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 79--81
+\/cmr/m/n/10 1\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (157.99289pt too wide) in paragraph at lines 79--81
+\/cmr/m/n/10 1)\OML/cmm/m/it/10 fig[]\/cmr/m/n/10 3\OML/cmm/m/it/10 :add[]race\
+/cmr/m/n/10 (\OML/cmm/m/it/10 c\/cmr/m/n/10 3\OML/cmm/m/it/10 A[]ine[]h\/cmr/m/
+n/10 2\OML/cmm/m/it/10 ; row \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 79--81
+\/cmr/m/n/10 1\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 79--81
+\/cmr/m/n/10 1)$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:82: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 f
+      ig_c3.add_trace(c3B_line_ch1, row=2, col=1)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:82: Missing $ inserted.
+<inserted text> 
+                $
+l.82 fig_
+         c3.add_trace(c3B_line_ch1, row=2, col=1)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:84: Missing $ inserted.
+<inserted text> 
+                $
+l.84 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (155.00197pt too wide) in paragraph at lines 82--84
+[]$[]\/cmr/m/n/10 3\OML/cmm/m/it/10 :add[]race\/cmr/m/n/10 (\OML/cmm/m/it/10 c\
+/cmr/m/n/10 3\OML/cmm/m/it/10 B[]ine[]h\/cmr/m/n/10 1\OML/cmm/m/it/10 ; row \/c
+mr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 82--84
+\/cmr/m/n/10 2\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (158.07796pt too wide) in paragraph at lines 82--84
+\/cmr/m/n/10 1)\OML/cmm/m/it/10 fig[]\/cmr/m/n/10 3\OML/cmm/m/it/10 :add[]race\
+/cmr/m/n/10 (\OML/cmm/m/it/10 c\/cmr/m/n/10 3\OML/cmm/m/it/10 B[]ine[]h\/cmr/m/
+n/10 2\OML/cmm/m/it/10 ; row \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 82--84
+\/cmr/m/n/10 2\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 82--84
+\/cmr/m/n/10 1)$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:85: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 f
+      ig_c3.add_trace(c3C_line_ch1, row=3, col=1)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:85: Missing $ inserted.
+<inserted text> 
+                $
+l.85 fig_
+         c3.add_trace(c3C_line_ch1, row=3, col=1)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+E:/Unicamp/F329/experimento4/code.py:87: Missing $ inserted.
+<inserted text> 
+                $
+l.87 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (154.5641pt too wide) in paragraph at lines 85--87
+[]$[]\/cmr/m/n/10 3\OML/cmm/m/it/10 :add[]race\/cmr/m/n/10 (\OML/cmm/m/it/10 c\
+/cmr/m/n/10 3\OML/cmm/m/it/10 C[]ine[]h\/cmr/m/n/10 1\OML/cmm/m/it/10 ; row \/c
+mr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 85--87
+\/cmr/m/n/10 3\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (157.64009pt too wide) in paragraph at lines 85--87
+\/cmr/m/n/10 1)\OML/cmm/m/it/10 fig[]\/cmr/m/n/10 3\OML/cmm/m/it/10 :add[]race\
+/cmr/m/n/10 (\OML/cmm/m/it/10 c\/cmr/m/n/10 3\OML/cmm/m/it/10 C[]ine[]h\/cmr/m/
+n/10 2\OML/cmm/m/it/10 ; row \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.3553pt too wide) in paragraph at lines 85--87
+\/cmr/m/n/10 3\OML/cmm/m/it/10 ; col \/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 85--87
+\/cmr/m/n/10 1)$ 
+ []
+
+
+E:/Unicamp/F329/experimento4/code.py:88: LaTeX Error: Missing \begin{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 f
+      ig.show()
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+E:/Unicamp/F329/experimento4/code.py:89: Missing $ inserted.
+<inserted text> 
+                $
+l.89 fig_
+         c3.show()
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+)
+! Emergency stop.
+<*> E:/Unicamp/F329/experimento4/code.py
+                                        
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 33 strings out of 478582
+ 556 string characters out of 2844344
+ 295211 words of memory out of 3000000
+ 18317 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,2n,32p,167b,88s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
